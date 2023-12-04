@@ -53,6 +53,15 @@
 			path = SharedComponents;
 			sourceTree = "<group>";
 		};
+		6F15571A2B1E02EA002BDEAB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				6FA931C92B0A421200F81D42 /* TopPage.swift */,
+				6F1557182B1DFFFF002BDEAB /* DetailedSmoothiesPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		6FA931BB2B0A421200F81D42 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +81,12 @@
 		6FA931C62B0A421200F81D42 /* custom_style_sample */ = {
 			isa = PBXGroup;
 			children = (
+				6F15571A2B1E02EA002BDEAB /* Pages */,
 				6F1557152B18C285002BDEAB /* SharedComponents */,
 				6FA931DE2B0DCD3500F81D42 /* DataSource */,
 				6FA931DB2B0DC80500F81D42 /* DataStore */,
 				6FA931D82B0DC6FA00F81D42 /* Models */,
 				6FA931C72B0A421200F81D42 /* SampleApp.swift */,
-				6FA931C92B0A421200F81D42 /* TopPage.swift */,
-				6F1557182B1DFFFF002BDEAB /* DetailedSmoothiesPage.swift */,
 				6FA931CB2B0A421300F81D42 /* Assets.xcassets */,
 				6FA931D02B0A421300F81D42 /* custom_style_sample.entitlements */,
 				6FA931CD2B0A421300F81D42 /* Preview Content */,
