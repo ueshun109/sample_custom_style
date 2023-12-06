@@ -13,7 +13,7 @@ final class SmoothiesState {
     do {
       let response = try await dataSource.fetchSmoothies()
       // このあたりは適当な値をセット
-      let sectionTitles = ["SectionA", "SectionB", "SectionC", "SectionD"]
+      let sectionTitles = ["Tokyo", "Osaka", "Aichi", "Kyoto"]
       let sectionItems = [response, response, response, response]
       let value = Dictionary(uniqueKeysWithValues: zip(sectionTitles, sectionItems))
       self.smoothies = .success(value)

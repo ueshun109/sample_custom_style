@@ -17,7 +17,6 @@ struct TopPage: View {
         Text(error.localizedDescription)
       }
     }
-    .navigationTitle("TOP")
   }
 
   /// 📚 スムージーの一覧
